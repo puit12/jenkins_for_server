@@ -1,5 +1,3 @@
-
-
 from flask import Flask, render_template, request, jsonify
 from werkzeug import secure_filename
 from konlpy.tag import Kkma
@@ -43,5 +41,3 @@ def returncount():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
-
-print("hi")
