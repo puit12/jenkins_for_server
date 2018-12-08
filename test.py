@@ -6,6 +6,7 @@ from words import summerize
 import json
 import jpype
 
+print('hi, im log')
 kkma = Kkma()
 app = Flask(__name__)
 
